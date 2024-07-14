@@ -12,7 +12,7 @@ After downloading the files, modify the paths in `data/dataset_info.json` to you
 
 ## Training
 
-The training scripts we used in the experiment are stored in foo/bar. Naming convention:
+The training scripts we used in the experiment are stored in `scripts/`. Naming convention:
 
 - `sft_${model_name}.sh` for SFT training without rationales.
 
