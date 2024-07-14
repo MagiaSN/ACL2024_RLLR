@@ -2,8 +2,6 @@
 
 This repository contains code for our paper accept at ACL 2024 Main: Enhancing Reinforcement Learning with Label-Sensitive Reward for Natural Language Understanding
 
-More information will be added soon.
-
 ## Data
 
 The dataset we used in our experiments can be obtained from the following link:
