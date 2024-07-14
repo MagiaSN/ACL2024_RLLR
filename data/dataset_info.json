@@ -1,0 +1,72 @@
+{
+  "sft_train": {
+    "file_name": "/path/to/sft_train.json",
+    "ranking": "false",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "history": ""
+    }
+  },
+  "sft_with_rat_train": {
+    "file_name": "/path/to/sft_with_rat_train.json",
+    "ranking": "false",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "history": ""
+    }
+  },
+  "unsupervised": {
+    "file_name": "/path/to/unsupervised.json",
+    "ranking": "false",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "history": ""
+    }
+  },
+  "rlhf_reward_train": {
+    "file_name": "/path/to/rlhf_reward_train.json",
+    "ranking": "true",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "history": ""
+    }
+  },
+  "rllr_reward_train": {
+    "file_name": "/path/to/rllr_reward_train.json",
+    "ranking": "true",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "history": ""
+    }
+  },
+  "label_sensitive_pairs_for_test": {
+    "file_name": "/path/to/label_sensitive_pairs_for_test.json",
+    "ranking": "true",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "history": ""
+    }
+  },
+  "test": {
+    "file_name": "/path/to/test.json",
+    "ranking": "false",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "history": ""
+    }
+  }
+}
